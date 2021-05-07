@@ -32,6 +32,7 @@ header {
 header h1 {
     background-color: #caebf2;
     color: #2e435e;
+    border-radius: 5px;
     padding: 5px 1% 5px 6%;
     font-size: 4vw;
     line-height: 1;
@@ -54,6 +55,7 @@ nav a {
     background-position: bottom;
     transition: all ease-in .2s;
     font-size: 140%;
+    border-radius: 5px;
 }
 
 nav a:hover {
@@ -74,5 +76,5 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
