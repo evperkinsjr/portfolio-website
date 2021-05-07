@@ -36,3 +36,31 @@ header h1 {
     font-size: 4vw;
     line-height: 1;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding 5px 10px;
+    color: #caebf2;
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, #caebf2 0%, #caebf2 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: bottom;
+    transition: all ease-in .2s;
+    font-size: 140%;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: #001f3f;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
