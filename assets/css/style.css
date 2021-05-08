@@ -135,6 +135,13 @@ main {
     margin-bottom: 20px;
 }
 
+.profile-photo {
+    size: 50%;
+    float: right;
+    border-radius: 5px;
+    max-height: 400px;
+}
+
 /*** Work Examples ***/
 .projects-container {
     display: flex;
