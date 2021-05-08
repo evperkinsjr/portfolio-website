@@ -67,6 +67,10 @@ nav a:last-child {
     margin-right: 0;
 }
 
+main {
+    margin: 20px 0 45px 0;
+}
+
 .hero {
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
@@ -80,8 +84,50 @@ nav a:last-child {
     text-align: right;
 }
 
-main {
-    margin: 20px 0 45px 0;
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.horiseon-image {
+    background-image: url("../images/horiseon-project-image.png");
+}
+
+.project-image {
+    background-image: url("../images/project-image.jpg");
+}
+
+.flex-project {
+    border: 5px solid #001f3f;
+    border-radius: 5px;
+	box-shadow: 0 4px 6px 0 #223c5029;
+	transition: all ease-in-out .2s;
+    min-width: 150px;
+    min-height: 150px;
+    flex-basis: auto;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+}
+
+.flex-project:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-project:hover {
+    filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 #223c5029;
+}
+
+.flex-project div {
+    padding: 8px 10px;
+}
+
+.flex-project h3 {
+    font-size: 150%;
 }
 
 @media screen and (max-width: 980px) {
