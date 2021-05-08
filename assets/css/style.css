@@ -67,6 +67,19 @@ nav a:last-child {
     margin-right: 0;
 }
 
+.hero {
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    color: #caebf2;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
 main {
     margin: 20px 0 45px 0;
 }
