@@ -153,17 +153,20 @@ main {
 .flex-project {
     border: 5px solid var(--secondary);
     border-radius: 5px;
-	box-shadow: 0 4px 6px 0 #223c5029;
-	transition: all ease-in-out .2s;
-    min-width: 150px;
+    background-color: var(--tertiary);
+    color: var(--tertiary);
     min-height: 150px;
-    flex-basis: 50%;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
-    font-size: 90%;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 
 .flex-project:first-child {
@@ -172,16 +175,17 @@ main {
 }
 
 .flex-project:hover {
-    filter: brightness(.75);
-	box-shadow: 0 8px 12px 0 #223c5029;
+    background-color: transparent;
 }
 
 .flex-project div {
+    background-color: var(--primary);
     padding: 8px 10px;
+    border-radius: 5px;
 }
-
+  
 .flex-project h3 {
-    font-size: 150%;
+    font-size: 1.4rem;
 }
 
 /*** Contact Section ***/
