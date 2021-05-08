@@ -4,10 +4,15 @@
     padding: 0;
 }
 
+:root {
+    --primary: #caebf2;
+    --secondary: #001f3f;
+    --tertiary: #2e435e;
+}
 body {
     font-family: 'Noto Sans', sans-serif;
-    background-color: #caebf2;
-    color: #001f3f;
+    background-color: var(--primary);
+    color: var(--secondary);
     line-height: 1.5;
 }
 
@@ -26,12 +31,12 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #2e435e;
+    background-color: var(--tertiary);
 }
 
 header h1 {
-    background-color: #caebf2;
-    color: #2e435e;
+    background-color: var(--primary);
+    color: var(--tertiary);
     border-radius: 5px;
     padding: 5px 1% 5px 6%;
     font-size: 4vw;
@@ -47,9 +52,9 @@ nav {
 nav a {
     text-decoration: none;
     padding 5px 10px;
-    color: #caebf2;
+    color: var(--primary);
     margin-right: 10px;
-    background-image: linear-gradient(270deg, #caebf2 0%, #caebf2 100%);
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
     background-repeat: no-repeat;
     background-size: 100% 10%;
     background-position: bottom;
@@ -60,7 +65,7 @@ nav a {
 
 nav a:hover {
     background-size: 100% 100%;
-    color: #001f3f;
+    color: var(--secondary);
 }
 
 nav a:last-child {
@@ -76,7 +81,7 @@ main {
     background-size: cover;
     background-position: center;
     min-height: 30vh;
-    color: #caebf2;
+    color: var(--primary);
     padding: 2% 6%;
     display: flex;
     justify-content: flex-end;
@@ -122,7 +127,7 @@ main {
 }
 
 .flex-project {
-    border: 5px solid #001f3f;
+    border: 5px solid var(--secondary);
     border-radius: 5px;
 	box-shadow: 0 4px 6px 0 #223c5029;
 	transition: all ease-in-out .2s;
