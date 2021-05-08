@@ -108,7 +108,7 @@ main {
     margin: 0 auto;
 }
 
-.section {
+.page-section {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -118,7 +118,7 @@ main {
     justify-content: space-between;
 }
 
-.section > h2 {
+.page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding: 15px;
@@ -127,11 +127,11 @@ main {
     line-height: 1.1; 
 }
 
-.section > div {
+.page-section > div {
     flex: 0 0 80%;
 }
 
-.section p {
+.page-section p {
     margin-bottom: 20px;
 }
 
