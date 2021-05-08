@@ -104,12 +104,12 @@ main {
     display: inline;
 }
 
-.page-wrapper {
+.main-wrapper {
     max-width: 90%;
     margin: 0 auto;
 }
 
-.page-section {
+.section {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -119,7 +119,7 @@ main {
     justify-content: space-between;
 }
 
-.page-section > h2 {
+.section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding: 15px;
@@ -129,11 +129,11 @@ main {
     
 }
 
-.page-section > div {
+.section > div {
     flex: 0 0 80%;
 }
 
-.page-section p {
+.section p {
     margin-bottom: 20px;
 }
 
