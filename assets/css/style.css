@@ -119,6 +119,16 @@ main {
     justify-content: space-between;
 }
 
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding: 15px;
+    border-right: 3px solid var(--secondary);
+    font-size: 300%;
+    line-height: 1.1;
+    
+}
+
 .page-section > div {
     flex: 0 0 80%;
 }
