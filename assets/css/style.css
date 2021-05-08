@@ -84,6 +84,29 @@ main {
     text-align: right;
 }
 
+.page-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.page-section > div {
+    flex: 0 0 80%;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+}
+
 .projects-container {
     display: flex;
     flex-wrap: wrap;
