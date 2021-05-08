@@ -74,7 +74,7 @@ nav a:last-child {
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 40vh;
+    min-height: 30vh;
     color: var(--primary);
     padding: 2% 6%;
     display: flex;
