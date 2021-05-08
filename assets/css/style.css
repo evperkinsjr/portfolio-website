@@ -89,6 +89,21 @@ main {
     text-align: right;
 }
 
+.hero div {
+    flex: 0 0 90%;
+}
+
+.hero h2 {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 200%;
+    line-height: 1.2;
+    display: inline;
+}
+
 .page-wrapper {
     max-width: 90%;
     margin: 0 auto;
