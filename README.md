@@ -8,7 +8,7 @@ For this project, I created a portfolio website so potential employers could lea
 3. Adding necessary content such as navigation, an about me section with a profile photo, project images/links, and contact information.
 4. Making the website mobile-responsive.
 
-Link to live webpage: [Horiseon Agency Website](https://evperkinsjr.github.io/horiseon-agency-code-refactor/)
+Link to live webpage: [Portfolio Website](https://evperkinsjr.github.io/portfolio-website/)
 
 ## Screenshot
 ![Portfolio Screenshot](./assets/images/portfolio-website-screenshot.png)
