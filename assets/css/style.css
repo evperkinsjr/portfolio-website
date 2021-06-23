@@ -148,12 +148,24 @@ main {
     justify-content: center;
 }
 
-.horiseon-image {
-    background-image: url("../images/horiseon-project-image.png");
+.lead-project-image {
+    background-image: url("../images/movie-drink-matchmaker-screenshot.png");
 }
 
-.project-image {
-    background-image: url("../images/project-image.jpg");
+.second-project-image {
+    background-image: url("../images/js-fundamentals-quiz-screenshot.png");
+}
+
+.third-project-image {
+    background-image: url("../images/password-generator-screenshot.png");
+}
+
+.fourth-project-image {
+    background-image: url("../images/work-day-scheduler-screenshot.png");
+}
+
+.fifth-project-image {
+    background-image: url("../images/horiseon-project-image.png");
 }
 
 .flex-project {
@@ -170,7 +182,7 @@ main {
     margin: 0.5em;
     text-decoration: none;
     background-blend-mode: soft-light;
-    background-size: 150%;
+    background-size: 100%;
     transition: all 0.5s;
     font-size: 0.9rem;
 }
@@ -191,7 +203,7 @@ main {
 }
   
 .flex-project h3 {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
 }
 
 /*** Contact Section ***/
