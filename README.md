@@ -11,9 +11,8 @@ For this project, I created a portfolio website so potential employers could lea
 Link to live webpage: [Portfolio Website](https://evperkinsjr.github.io/portfolio-website/)
 
 ## Screenshot
-![Portfolio Screenshot](./assets/images/portfolio-website-screenshot.png)
+![Portfolio Screenshot](./assets/images/updated-portfolio-website-screenshot.png)
 
-> **Note**: The Horiseon Code Refactor project link is live. The other projects are placeholders, so the links don't work.
 
 ## Technologies Used
 
