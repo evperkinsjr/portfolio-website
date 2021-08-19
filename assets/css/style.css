@@ -149,23 +149,23 @@ main {
 }
 
 .lead-project-image {
-    background-image: url("../images/movie-drink-matchmaker-screenshot.png");
+    background-image: url("../images/gitshare-screenshot.png");
 }
 
 .second-project-image {
-    background-image: url("../images/js-fundamentals-quiz-screenshot.png");
+    background-image: url("../images/movie-drink-matchmaker-screenshot.png");
 }
 
 .third-project-image {
-    background-image: url("../images/password-generator-screenshot.png");
+    background-image: url("../images/js-fundamentals-quiz-screenshot.png");
 }
 
 .fourth-project-image {
-    background-image: url("../images/work-day-scheduler-screenshot.png");
+    background-image: url("../images/password-generator-screenshot.png");
 }
 
 .fifth-project-image {
-    background-image: url("../images/horiseon-project-image.png");
+    background-image: url("../images/work-day-scheduler-screenshot.png");
 }
 
 .flex-project {
